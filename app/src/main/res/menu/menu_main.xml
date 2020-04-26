@@ -1,0 +1,31 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".MainActivity">
+
+    <item android:id="@+id/recargar"
+        android:title="Recargar"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        android:icon="@drawable/reload"
+        />
+
+    <item android:id="@+id/favoritos"
+        android:title="Añadir a favoritos"
+        android:icon="@drawable/abc_btn_rating_star_on_mtrl_alpha"
+        android:orderInCategory="100"
+        app:showAsAction="always"
+        />
+
+    <item android:id="@+id/acercaDe"
+        android:title="Acerca De"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/action_settings"
+        android:title="Salir"
+        android:orderInCategory="100"
+        app:showAsAction="never" />
+
+
+
+</menu>
